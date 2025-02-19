@@ -1,9 +1,4 @@
 ﻿using System;
-using System.CodeDom;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TaskHayk
 {
@@ -61,7 +56,7 @@ namespace TaskHayk
             credit.ProcessPayment();
             credit.PrintReceipt();
 
-            Console.WriteLine();
+            Console.WriteLine("----------------------------");
             Payment paypal = new PayPalPayment();
             paypal.ProcessPayment();
             paypal.PrintReceipt();
