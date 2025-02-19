@@ -52,14 +52,18 @@ namespace TaskHayk
             //--------------------------------------------
 
             //Task 5 ---------------------------------------
-            Payment credit = new CreditCardPayment();
-            credit.ProcessPayment();
-            credit.PrintReceipt();
+            //Payment credit = new CreditCardPayment();
+            //credit.ProcessPayment();
+            //credit.PrintReceipt();
 
-            Console.WriteLine("----------------------------");
-            Payment paypal = new PayPalPayment();
-            paypal.ProcessPayment();
-            paypal.PrintReceipt();
+            //Console.WriteLine("----------------------------");
+            //Payment paypal = new PayPalPayment();
+            //paypal.ProcessPayment();
+            //paypal.PrintReceipt();
+            //------------------------------------------------
+            
+            Game machineGame = new Game();
+            machineGame.GameFunc();
 
         }
     }
