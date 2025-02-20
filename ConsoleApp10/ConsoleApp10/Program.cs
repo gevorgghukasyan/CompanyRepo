@@ -7,6 +7,7 @@ namespace opp
 	{
 		static void Main(string[] args)
 		{
+			//Ero
 			int option = 0;
 			Casino casino = new Casino(100);
 			Bet bet = null;
